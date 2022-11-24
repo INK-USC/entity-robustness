@@ -1,6 +1,6 @@
 # On the Robustness of Reading Comprehension Models to Entity Renaming
 
-Code and data for paper "On the Robustness of Reading Comprehension Models to Entity Renaming" (NAACL'22).
+This repo contains the code for paper [*On the Robustness of Reading Comprehension Models to Entity Renaming*](https://arxiv.org/abs/2110.08555), accepted to *NAACL 2022*.
 
 # 1. Preparation
 
@@ -126,3 +126,20 @@ python run_qa.py config/mrqa_eval.json \
 >  > Path for the perturbed test set: `./data/<DATASET>/<ENTITY_TYPE>/<CANDIDATE_SOURCE>/dev_subset_s<SAMPLING_SEED>.jsonl`
 > 
 > `<OUTPUT_PRED_PATH>`: a `str` for specifying the path to save model predictions.
+
+## Citation
+
+```bibtex
+@inproceedings{yan-etal-2022-robustness,
+    title = "On the Robustness of Reading Comprehension Models to Entity Renaming",
+    author = "Yan, Jun and Xiao, Yang and Mukherjee, Sagnik and Lin, Bill Yuchen and Jia, Robin and Ren, Xiang",
+    booktitle = "Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+    month = jul,
+    year = "2022",
+    address = "Seattle, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.naacl-main.37",
+    doi = "10.18653/v1/2022.naacl-main.37",
+    pages = "508--520",
+}
+```
